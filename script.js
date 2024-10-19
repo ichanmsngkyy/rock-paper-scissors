@@ -70,7 +70,7 @@ function playRound(humanChoice, computerChoice) {
                 humanScore++;
                 console.log(`Human Score: ${humanScore}`);
                 console.log(`Computer Score: ${computerScore}`);
-                return console.log("You win! Paper bats Rock");
+                return console.log("You win! Paper beats Rock");
             } else if (computerChoice === "scissors") {
                 computerScore++;
                 console.log(`Human Score: ${humanScore}`);
