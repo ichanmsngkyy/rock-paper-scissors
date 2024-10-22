@@ -88,14 +88,6 @@ function playRound(humanChoice, computerChoice) {
 function playGame() {
     let round = 0;
 
-    while (round < 5 && humanScore < 5 && computerScore < 5) {
-
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        playRound(humanSelection, computerSelection);
-
-        round++;
-    }
 
     if (humanScore > computerScore) {
         console.log("You Win!");
