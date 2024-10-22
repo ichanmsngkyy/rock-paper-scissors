@@ -1,4 +1,6 @@
 **Rock,Paper,Scissors**
 ---
-Finished adding functionalities of the game by using Javascript and print the following at console.log
-
+Finished the game by using all the lessons I learned.
+HTML for layout
+CSS for designing
+Javascript for functionalities.
