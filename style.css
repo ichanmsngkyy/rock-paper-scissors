@@ -15,6 +15,7 @@ html,body{
 
 .container{
     display: flex;
+    flex: auto;
     background-color:beige;
     flex-direction: column;
     align-items: center;
@@ -26,6 +27,7 @@ html,body{
 
 .buttonList, .scoreList{
     display: flex;
+    flex: 0;
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +38,8 @@ html,body{
 
 .scoreList{
     flex-direction: column;
-    gap: 5px;
+    justify-content: center;
+    gap: 5px
 }
 
 .buttonList{
@@ -51,12 +54,18 @@ button{
     margin: 10px;
     padding: 10px 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .header{
     color: rgb(68, 53, 30);
     padding: 20px;
 }
+
+.results{
+    padding: 20px;
+}
+
 
 
 
