@@ -24,23 +24,39 @@ html,body{
     box-shadow: 0 0 10px #888;
 }
 
-.list, .scoreList{
+.buttonList, .scoreList{
     display: flex;
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     list-style-type: none;
 }
 
 .scoreList{
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+}
+
+.buttonList{
+    flex-direction: row;
+}
+
+button{
+    background-color: rgb(68, 53, 30);
+    color: beige;
+    border-radius: 12px;
+    border: 2px rgb(68, 53, 30);
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .header{
     color: rgb(68, 53, 30);
     padding: 20px;
 }
+
+
 
